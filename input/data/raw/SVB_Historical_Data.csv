@@ -1,0 +1,18 @@
+variable,label,2021,2022,definition
+cash,Cash and cash equivalents,14.586,13.803,Cash reported on the consolidated balance sheet.
+afs_fair,AFS securities at fair value,27.221,26.069,Already measured at fair value; do not subtract an AFS loss again.
+htm_carrying_net,HTM securities at net carrying value,98.195,91.321,Amortized cost after the credit loss allowance; counted in total assets.
+htm_fair,HTM disclosed fair value,97.227,76.169,Alternative valuation of the same HTM securities; not an additional asset.
+htm_credit_allowance,HTM credit loss allowance,0.007,0.006,Already deducted from the net carrying amount.
+other_securities,Other equity securities,2.543,2.664,Non-marketable and other equity securities.
+loans_net,Net loans,65.854,73.614,Customer loans after the reported allowance.
+other_assets_residual,Other assets by subtraction,2.909,4.322,"Derived as total assets less cash, AFS, net HTM, other securities and net loans."
+assets,Total assets,211.308,211.793,Reported consolidated total; do not add HTM fair value to this total.
+deposits_noninterest,Noninterest-bearing deposits,125.851,80.753,Noninterest-bearing demand deposits.
+deposits_interest,Interest-bearing deposits,63.352,92.356,This classification differs from insured versus uninsured deposits.
+deposits,Total deposits,189.203,173.109,Sum of interest-bearing and noninterest-bearing deposits.
+other_liabilities_residual,Other liabilities by subtraction,5.496,22.389,Derived as total liabilities minus deposits.
+liabilities,Total liabilities,194.699,195.498,Reported consolidated total.
+equity_parent,SVBFG stockholders equity,16.236,16.004,Equity attributable to stockholders of the parent group.
+noncontrolling,Noncontrolling interests,0.373,0.291,Equity attributable to noncontrolling interests.
+equity_total,Total equity,16.609,16.295,Parent stockholders equity plus noncontrolling interests.

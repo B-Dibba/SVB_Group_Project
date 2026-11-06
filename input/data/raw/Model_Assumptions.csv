@@ -1,0 +1,15 @@
+parameter,value,unit,meaning
+cash,10,model units,Initial cash available for withdrawals
+securities_initial,60,model units,Initial market value invested in securities
+customer_loans,30,model units,Fixed value; unavailable for immediate funding
+deposits,90,model units,Initial deposits
+equity_initial,10,model units,Initial equity before any shock
+initial_yield,0.02,decimal annual rate,Annual compounding; baseline yield
+maturity,5,years,Remaining maturity of the common zero-coupon portfolio
+rate_shock,0.02,decimal rate change,Common shock of two percentage points
+withdrawal,30,model units,Common withdrawal requested after the shock
+sale_discount,0.05,decimal fraction,Extra discount from current fair value on securities sold
+insured_withdrawal_fraction,0.05,decimal fraction,Track B withdrawal fraction of insured deposits
+collateral_margin,0.1,decimal fraction,Track C market-value loan margin
+new_equity,5,model units,Track C cash raised from new shareholders
+borrowing_rate,0.05,decimal annual rate,Track C illustrative annual loan interest rate
